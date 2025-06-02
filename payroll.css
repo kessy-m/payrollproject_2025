@@ -1,0 +1,23 @@
+h1{
+font-style: italic;
+font-weight: 700;
+font-size: larger;
+
+}
+
+.form{
+    margin: 20px auto;
+    padding: 30px ;
+    border-radius: 20px;
+    width: 60%;
+    max-width: 300px;
+
+}
+
+.form label{
+    margin-bottom: 20px;
+    font-weight: 400px;
+    font-size: larger;
+    display: block;
+
+}
