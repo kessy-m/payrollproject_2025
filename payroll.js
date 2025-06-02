@@ -1,3 +1,4 @@
+let form =get
 // function gross_salary(basic_salary, benefits) {
 //             let gross1_salary = basic_salary + benefits
 //             return gross1_salary
