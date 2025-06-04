@@ -6,7 +6,7 @@
 //         let b_salary = Number(prompt('enter basic salary'))
 //         let b_fits = Number(prompt('enter benefits'))
 //         let total_gross = gross_salary(b_salary, b_fits)
-        
+
 //         console.log(total_gross, "gross")
 
 
@@ -77,6 +77,28 @@
 //         let total_nhif = nhif(gros_salary)
 //         console.log(total_nhif, 'nhif')
 
+
+
+//q16.
+//  function calc_nssf(x, rate = 0.06) {
+//             let total_nhif = 0
+//             if (x >= 0 && x <= 18000) {
+//                 total_nhif = (x * rate)
+//             }
+//             else {
+//                 total_nhif = 18000 * 0.06
+//             }
+//             return total_nhif
+//         }
+//         let x_gross = Number(prompt('enter the gross salary: '));
+//         let rate_1 = 0.06;
+
+//         let NSSF = calc_nssf(x_gross, rate_1)
+//         console.log(NSSF, 'nssf')
+
+
+
+
 //         // 17.Continue with the same program and calculate an individual’s NHDF using:
 //         // //  i.e NHDF = gross_salary *  0.015
 
@@ -92,17 +114,21 @@
 //         console.log(NHDF, 'nhdf')
 
 
-//         // 18. Calculate the taxable income.
-//         // i.e taxable_income = gross salary - (NSSF + NHDF) 
 
-//         function taxable_income(gs, ns, nh) {
-//             let tax_income = gs - ((ns + nh))
+
+
+
+//         // 18. Calculate the taxable income.
+//         // i.e taxable_income = gross salary - (NSSF + NHDF)
+
+//         function taxable_income(gs, nsf, nhf) {
+//             let tax_income = gs - ((nsf + nhf))
 //             return tax_income
 //         }
 
 //         let gs1_gross = Number(prompt('enter the gross salary: '))
-//         let ns = Number(prompt('enter nssf: '))
-//         let nh = Number(prompt('enter nhif: '))
+//         let nsf = Number(prompt('enter nssf: '))
+//         let nhf = Number(prompt('enter nhif: '))
 
 //         let totaltax_income = taxable_income(gs1_gross, ns, nh)
 //         console.log(totaltax_income, "tax_income")
@@ -112,7 +138,7 @@
 
 //         //19.  # Continue with the same program and find the person's PAYEE using the taxable income above.
 //         // # Find the Kenya PAYEE Tax Rate using THIS LINK
-//         // # Monthly Bands of Taxable Income 
+//         // # Monthly Bands of Taxable Income
 //         // # (KES)	                      Tax Rate
 //         // # 0 – 24,000	                    10%
 //         // # On the next 8,333	                25%
@@ -126,13 +152,13 @@
 //         // gross_salary=basic_salary + benefits
 //         // NSSF= gross_salary*0.06
 //         // NHDF=gross_salary*0.015
-//         // taxable_income=gross_salary-(NSSF + NHDF) 
+//         // taxable_income=gross_salary-(NSSF + NHDF)
 //         // relief=2400
 //         // if(taxable_income>0) and (taxable_income<=24000):
 //         //     payee=0
 //         // elif(taxable_income>=24000)and (taxable_income<=32333):
 //         //     payee=(24000*0.1)+ (taxable_income-24000)*0.25 -(relief)
-//         // else:    
+//         // else:
 //         //     payee=(24000*0.1)+(8333*0.25)+(taxable_income-32333)*0.3 -(relief)
 //         // print("ksh."f"{round(payee,2)}")
 
@@ -168,7 +194,7 @@
 //         // gross_salary=basic_salary + benefits
 //         // NSSF= gross_salary*0.06
 //         // NHDF=gross_salary*0.015
-//         // taxable_income=gross_salary-(NSSF + NHDF) 
+//         // taxable_income=gross_salary-(NSSF + NHDF)
 //         // NHIF=float(input("enter nhif: "))
 //         // PAYEE=float(input("enter payee: "))
 

@@ -13,49 +13,57 @@
 <body>
   <h1>My payroll</h1>
 
-<div class="form_1">
-  <form action="" id="my_form">
-    <label for="">Basic salary</label>
-    <input type="Number" id="bs_salary">
-    <label for="">Benefits</label>
-    <input type="number" id="benefits"><br>
-    
-    <button type="submit">CALCULATE</button>
+  <div class="form_1">
+    <form action="" id="my_form">
+      <label for="">Basic salary</label>
+      <input type="Number" id="bs_salary">
+      <label for="">Benefits</label>
+      <input type="number" id="benefits"><br>
 
-  </form>
-</div>
+      <button type="submit">CALCULATE</button>
+
+    </form>
+  </div>
 
   <table class="table">
     <thead>
       <tr>
         <th>salary component</th>
-        <th>Amount</th>
+        <th>Amount(Ksh)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th>gross salary</th>
+        <th>Gross Salary</th>
         <td id="gs"></td>
       </tr>
 
       <tr>
-        <th>Nhif</th>
+        <th>NHIF</th>
         <td id="nh"></td>
       </tr>
 
       <tr>
-        <th>Nssf</th>
+        <th>NSSF</th>
         <td id="ns"></td>
       </tr>
 
       <tr>
-        <th>Nhdf</th>
+        <th>NHDF</th>
         <td id="nd"></td>
       </tr>
 
       <tr>
-        <th>Payee</th>
+        <th>PAYE</th>
         <td id="paye"></td>
+      </tr>
+      <tr>
+        <th>Taxable Income</th>
+        <td id="tax"></td>
+      </tr>
+      <tr>
+        <th>Net Salary</th>
+        <td id="net"></td>
       </tr>
 
     </tbody>
